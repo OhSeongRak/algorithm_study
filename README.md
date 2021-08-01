@@ -1,7 +1,8 @@
 # __🇰🇷 sejong univ. algorithm study__
 
 #### __*collaborators*__
-- @SeongRak Oh
+- @SeongRak Oh 
+- @Jinyong3512
 
 #### __*system*__
 - 주 4회, 스터디 모임은 00시에 진행한다.  
