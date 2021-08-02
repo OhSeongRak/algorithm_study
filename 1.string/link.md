@@ -6,4 +6,4 @@
 - [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)
 - [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
 - [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
-- [Longest Substring Without Repeating Characters]https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
