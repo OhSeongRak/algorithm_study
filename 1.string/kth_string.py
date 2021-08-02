@@ -5,7 +5,6 @@ for test_case in range(1, T + 1):
     s = input()  # string s
     subs = set()
 
-    # Big-O : O(N^2)
     for start in range(0, len(s)):
         for gap in range(1, len(s) + 1):
             if start + gap <= len(s):
