@@ -6,7 +6,3 @@ def solution(s):
         s = s.replace(word, number)
 
     return int(s)
-
-
-s = "one4seveneight"
-print(f'{s} -> {solution(s)}')
