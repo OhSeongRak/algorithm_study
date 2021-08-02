@@ -5,3 +5,4 @@
 - [kakao - 문자 숫자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)
 - [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)
 - [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
+- [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
