@@ -9,13 +9,13 @@ public class StringCompression {
 
 		for (int n = 1; n <= s.length() / 2; n++) {
 			int cnt = 1;
-			String sol = ""; // ³ªÁß¿¡ ´Ù µé¾î°¡°í ans¶û ºñ±³ÇÒ ¹®ÀÚ¿­ abbaa a2b2a
-			String tmp = ""; // ¿Õ a, ab, abb
+			String sol = ""; // ë‚˜ì¤‘ì— ë‹¤ ë“¤ì–´ê°€ê³  ansë‘ ë¹„êµí•  ë¬¸ìì—´ abbaa a2b2a
+			String tmp = ""; // ì™• a, ab, abb
 
 			for (int i = 0; i < s.length(); i += n) {
-				// ÀÎµ¦½º¸¦ ÃÊ°úÇÏ°Ô ¹®ÀÚ¿­À» ÀÚ¸£´Â °æ¿ì   
+				// ì¸ë±ìŠ¤ë¥¼ ì´ˆê³¼í•˜ê²Œ ë¬¸ìì—´ì„ ìë¥´ëŠ” ê²½ìš°   
 				if (i + n > s.length()) {
-					// ºñ±³ ¹®ÀÚ¿­ÀÌ 1°³ÀÎ °æ¿ì => ºñ±³ ¹®ÀÚ¿­°ú ³²Àº ¹®ÀÚ¿­À» ºÙÀÓ.
+					// ë¹„êµ ë¬¸ìì—´ì´ 1ê°œì¸ ê²½ìš° => ë¹„êµ ë¬¸ìì—´ê³¼ ë‚¨ì€ ë¬¸ìì—´ì„ ë¶™ì„.
 					if (cnt == 1) {
 						sol += tmp;
 						sol += s.substring(i);
@@ -27,11 +27,11 @@ public class StringCompression {
 				}
 				
 				else {
-					// ÃÊ±â¿¡ ºñ±³ ¹®ÀÚ¿­ tmp°¡ ºñ¾îÀÖ´Â °æ¿ì // ÇÊ¿ä ¾øÀ½
+					// ì´ˆê¸°ì— ë¹„êµ ë¬¸ìì—´ tmpê°€ ë¹„ì–´ìˆëŠ” ê²½ìš° // í•„ìš” ì—†ìŒ
 					if (tmp.equals(""))
 						tmp = s.substring(i, i + n); // n = 1 aabb 
 					else {
-						// ºñ±³ ¹®ÀÚ¿­°ú ¶È°°À» °æ¿ì cnt¸¦ ´Ã¸². ex) abab -> ºñ±³¹®ÀÚ¿­ ab¿Í ±× µÚ ab°¡ °°À½
+						// ë¹„êµ ë¬¸ìì—´ê³¼ ë˜‘ê°™ì„ ê²½ìš° cntë¥¼ ëŠ˜ë¦¼. ex) abab -> ë¹„êµë¬¸ìì—´ abì™€ ê·¸ ë’¤ abê°€ ê°™ìŒ
 						if (tmp.equals(s.substring(i, i + n)))
 							cnt++;
 						else {
@@ -45,7 +45,7 @@ public class StringCompression {
 							tmp = s.substring(i, i + n);
 						}
 						
-						// ¸¶Áö¸·±îÁö ´Ù Àß¶úÀ» °æ¿ì.
+						// ë§ˆì§€ë§‰ê¹Œì§€ ë‹¤ ì˜ëì„ ê²½ìš°.
 						if(i + n == s.length()) {
 							if (cnt == 1)
 								sol += tmp;
