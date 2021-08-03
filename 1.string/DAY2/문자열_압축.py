@@ -19,6 +19,3 @@ def solution(s):
         answer = min(answer, len(compressed))
 
     return answer
-
-
-print(solution('zbacacxq'))
