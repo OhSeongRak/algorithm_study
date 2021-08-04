@@ -10,3 +10,7 @@
 ## DAY 3
 - [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
 - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+## DAY 4
+
+- [Circular Palindromes](https://www.hackerrank.com/challenges/circular-palindromes/problem)
