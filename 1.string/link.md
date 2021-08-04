@@ -14,4 +14,4 @@
 ## DAY 4
 
 - [Circular Palindromes](https://www.hackerrank.com/challenges/circular-palindromes/problem)
-- [PermutationInString](https://leetcode.com/problems/permutation-in-string/)
+- [Permutation In String](https://leetcode.com/problems/permutation-in-string/)
