@@ -21,8 +21,3 @@ class Solution:
             duplicate[s[right]] = right
 
         return max_length
-
-
-s = Solution()
-text = "tmmzuxt"
-print(s.lengthOfLongestSubstring(text))
