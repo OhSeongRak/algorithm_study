@@ -12,6 +12,5 @@
 - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ## DAY 4
-
-- [Circular Palindromes](https://www.hackerrank.com/challenges/circular-palindromes/problem)
 - [Permutation In String](https://leetcode.com/problems/permutation-in-string/)
+- [Circular Palindromes](https://www.hackerrank.com/challenges/circular-palindromes/problem)
