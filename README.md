@@ -42,6 +42,6 @@
 - [SW Expert Academy](https://swexpertacademy.com/main/main.do)
 
 #### __*Todo*__
-- [ ] 1 week
+- [X] 1 week
 
 ![Algorithm](https://blog.kakaocdn.net/dn/xCxbD/btq3zN4NQ3x/0ZBXlRgaeTqT1hBmPBrOQk/img.png)
