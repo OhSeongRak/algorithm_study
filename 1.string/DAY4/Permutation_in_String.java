@@ -2,7 +2,7 @@ package String;
 
 import java.util.Scanner;
 
-public class Permutation_in_String_OSR2 {
+public class Permutation_in_String {
 
 	public static boolean checkInclusion(String s1, String s2) {
 		if (s1.length() > s2.length())
