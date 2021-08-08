@@ -29,7 +29,8 @@ public class Main{
             }
         }
  
-        int count = Math.min(N,M)/2; //배열 안 회전시키는 사각형의 수
+        int count = Math.min(N,M)/2; 
+        //배열 안 회전시키는 사각형의 수
         
         for(int i = 0 ; i < R ; i++){
             for(int j = 0 ; j < count ; j++){
