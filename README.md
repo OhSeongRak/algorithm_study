@@ -3,6 +3,7 @@
 #### __*collaborators*__
 - @SeongRak Oh 
 - @Jinyong3512
+- @JeongJWon
 
 #### __*system*__
 - 주 4회, 스터디는 00시, 디스코드에서 비대면 방식으로 진행한다.  
