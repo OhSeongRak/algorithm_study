@@ -38,7 +38,7 @@
 - [Baekjoon](https://www.acmicpc.net)
 - [LeetCode](https://leetcode.com)
 - [programmers](https://programmers.co.kr)
-- [Codility](https://www.codility.com)
+- [Codility](https://app.codility.com/programmers/)
 - [HackerRank](https://www.hackerrank.com/dashboard)
 - [SW Expert Academy](https://swexpertacademy.com/main/main.do)
 
