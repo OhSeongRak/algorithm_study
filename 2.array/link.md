@@ -4,3 +4,4 @@
 
 ## DAY 2
 - [Secret Map](https://programmers.co.kr/learn/courses/30/lessons/17681)
+- [Maximum Subarray Sum](https://www.hackerrank.com/challenges/maximum-subarray-sum/problem)
