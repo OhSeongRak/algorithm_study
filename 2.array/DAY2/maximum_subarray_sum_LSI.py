@@ -5,22 +5,19 @@ import sys
 from typing import *
 
 
-def maximumSum(a: List[int], m: int) -> int:  # m: modulo
-    # (a+b) % M = ((a % M) + (b % M)) % M, M = mod(m)
+def maximumSum(a: List[int], m: int) -> int:
+    # (a+m)%m = ((a%m) + (m%m))%m = (a%m)%m = a%m
     a = [i % m for i in a]
-
-    # using the ideas of Kadane's Algorithm
-    prefix = []
     best_sum = -sys.maxsize
 
-    for i in range(len(a)):
-        prefix.insert(0, 0)  # a[i] will insert to 0 index of prefix
-        prefix = list(map(lambda x: x + a[i], prefix))  # add a[i] to all elements of prefix
-        # extract the maximum among values less than m from prefix
-        # and compare maximum with existing best_sum
-        best_sum = max(best_sum, max(filter(lambda x: x < m, prefix)))
+    # memoization
+    prefix = {0}
 
-    return best_sum % m
+    for i in range(len(a)):
+        prefix.update(set(filter(lambda x: x < m, set(map(lambda y: y + a[i], prefix)))))
+        best_sum = max(best_sum, max(prefix))
+
+    return best_sum
 
 
 if __name__ == '__main__':
