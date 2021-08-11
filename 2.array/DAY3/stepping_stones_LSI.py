@@ -1,4 +1,4 @@
-# one case Time Limited
+# one case Time Limited => descending order
 
 import collections
 import sys
