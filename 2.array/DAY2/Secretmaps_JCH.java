@@ -22,28 +22,28 @@ public class Programmers_Secretmaps_JCH {
 			arr2[i] = input.nextInt();
 		}
 		
-		for(int i = 0; i < n; i++) {	//arr1 ºÎºÐ º® Ã¼Å©
+		for(int i = 0; i < n; i++) {	//arr1 ë¶€ë¶„ ë²½ ì²´í¬
 			position = n-1;
 			while(true) {
-				res[i][position] = arr1[i] % 2;	//ÀÌÁø¼ö º¯È¯ ºÎºÐ
+				res[i][position] = arr1[i] % 2;	//ì´ì§„ìˆ˜ ë³€í™˜ ë¶€ë¶„
 				arr1[i] /= 2;
 				position--;
 				
-				if(arr1[i] == 0) {	//arr1 ¿ø¼Ò °ªÀÌ 0ÀÌ µÇ°Å³ª resÀÇ positionÀÌ n-1ÀÌ µÉ°æ¿ì break
+				if(arr1[i] == 0) {	//arr1 ì›ì†Œ ê°’ì´ 0ì´ ë˜ê±°ë‚˜ resì˜ positionì´ n-1ì´ ë ê²½ìš° break
 					break;
 				}
 			}
 		}
 		
-		for(int i = 0; i < n; i++) {	//arr2 º® Ã¼Å©
+		for(int i = 0; i < n; i++) {	//arr2 ë²½ ì²´í¬
 			position = n-1;
 			while(true) {
-				if(res[i][position] == 1) {	//arr1 º® Ã¼Å© ºÎºÐ¿¡¼­ ÀÌ¹Ì 1ÀÌ µé¾î°¡ º®ÀÌ »ý¼º µÇ¾úÀ» ½Ã ±×´ë·Î µÎ°í ÀÌÁø¼ö º¯È¯ °è¼ÓÁøÇà
+				if(res[i][position] == 1) {	//arr1 ë²½ ì²´í¬ ë¶€ë¶„ì—ì„œ ì´ë¯¸ 1ì´ ë“¤ì–´ê°€ ë²½ì´ ìƒì„± ë˜ì—ˆì„ ì‹œ ê·¸ëŒ€ë¡œ ë‘ê³  ì´ì§„ìˆ˜ ë³€í™˜ ê³„ì†ì§„í–‰
 					res[i][position] = 1;
 					arr2[i] /= 2;
 					position --;
 				}
-				else {						//arr1 º® Ã¼Å© ºÎºÐ¿¡¼­ 0ÀÏ½Ã arr2 º® Ã¼Å©
+				else {						//arr1 ë²½ ì²´í¬ ë¶€ë¶„ì—ì„œ 0ì¼ì‹œ arr2 ë²½ ì²´í¬
 					res[i][position] = arr2[i] % 2;
 					arr2[i] /= 2;
 					position --;
@@ -66,7 +66,7 @@ public class Programmers_Secretmaps_JCH {
 			}
 		}
 		
-		for(int i = 0; i < n; i++) {		//Ãâ·Â
+		for(int i = 0; i < n; i++) {		//ì¶œë ¥
 			for(int j = 0; j < n; j++) {
 				System.out.print(answer[i][j]);
 			}
