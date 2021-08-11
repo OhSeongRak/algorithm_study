@@ -14,7 +14,7 @@ def maximumSum(a: List[int], m: int) -> int:
     prefix = {0}
 
     for i in range(len(a)):
-        prefix.update(set(filter(lambda x: x < m, set(map(lambda y: y + a[i], prefix)))))
+        prefix.update(set(map(lambda x: (x + a[i])%m, prefix)))
         best_sum = max(best_sum, max(prefix))
 
     return best_sum
