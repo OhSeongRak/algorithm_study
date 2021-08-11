@@ -8,3 +8,4 @@
 
 ## Day 3
 - [Sum_of_two_arrays](https://www.acmicpc.net/problem/2143)
+- [Stepping_Stones](https://programmers.co.kr/learn/courses/30/lessons/64062)
