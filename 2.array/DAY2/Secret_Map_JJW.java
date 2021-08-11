@@ -18,13 +18,13 @@ class Secret_Map_JJW {
             //toBinaryString() : 10진수를 2진수로 변환
             //(|) : | or 논리비트 수행 = 두 값 중 하나라도 1이면 1, 두값 모두 1이면 0으로 처리 
             
-            if(answer[i].length() < n){
-                answer[i] = "0"+answer[i];
-            }
+            
             
         }
         
         for(int i = 0 ; i < n ;i++){
+            answer[i] = format("%"+n+"s", answer[i]);
+            //n자리 수 만큼 answer[i]를 만들어줌 -> 0으로 채움
             answer[i] = answer[i].replace("1","#");
             answer[i] = answer[i].replace("0"," ");
            
