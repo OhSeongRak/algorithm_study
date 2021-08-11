@@ -5,17 +5,24 @@ import sys
 from typing import *
 
 
+def triangular_number(n: int) -> int:
+    return int(n * (n + 1) / 2)
+
+
 def maximumSum(a: List[int], m: int) -> int:
     # (a+m)%m = ((a%m) + (m%m))%m = (a%m)%m = a%m
     a = [i % m for i in a]
     best_sum = -sys.maxsize
 
-    # memoization
-    prefix = {0}
+    # Kadane's Algorithm
+    suffix = [a[0]]
 
-    for i in range(len(a)):
-        prefix.update(set(map(lambda x: (x + a[i])%m, prefix)))
-        best_sum = max(best_sum, max(prefix))
+    for i, v in enumerate(a[:1]):
+        # triangular_number(i) -> start_index_to_be_added_range
+        suffix.extend(list(map(lambda x: (x + v)%m, prefix[triangular_number(i):])))
+        suffix.append(v)
+        
+        best_sum = max(best_sum, max(suffix))
 
     return best_sum
 
