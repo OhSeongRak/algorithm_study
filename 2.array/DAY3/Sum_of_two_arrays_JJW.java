@@ -58,19 +58,37 @@ public class Sum_of_two_arrays_JJW {
 			}
 		}
 		
+		//1
+		//////////////////////////////////////////////////////
+		//O(n^2)
+		long cnt = 0;
+		for(int i = 0 ; i < sumA.size() ; i++){
+			for(int j = 0 ; j < sumB.size(); j++){
+				int sum = sumA.get(i) + sumB.get(j);
+				if(sum == T) cnt++;
+				else if(sum > T) break;
+			}
+		}
+		
+		///////////////////////////////////////////////////
+		
+		
+		//2
+		///////////////////////////////////////////////////
+		//two pointer Algorithm 
 		Collections.sort(sumA);
 		Collections.sort(sumB);
 		//오름차순으로 정렬 
 		
-    List<Integer> list = new ArrayList<Integer>(sumA);
+   		List<Integer> list = new ArrayList<Integer>(sumA);
 		
 		for(int i = 0 ; i < sumB.size() ;i++) {
 			list.add(sumB.get(i));
 		}
-    //list에 sumA와 sumB를 차례대로 복붙
+   		//list에 sumA와 sumB를 차례대로 복붙
     
-		//two pointer Algorithm 
-    long cnt = 0;
+		
+    		long cnt = 0;
 		int start = 0 ;
 		int end = list.size()-1;
 		
@@ -81,7 +99,7 @@ public class Sum_of_two_arrays_JJW {
 			int sum = avalue + bvalue;
       
 			if(sum == T) {
-        //합이 T와 같다면
+        		//합이 T와 같다면
 				while(start < sumA.size() && list.get(start) == avalue) {
 					start++;
 					acnt++;
@@ -90,7 +108,7 @@ public class Sum_of_two_arrays_JJW {
 					end--;
 					bcnt++;
 				}
-        //중복값이 있을 수 있기 때문에 while문을 이용함
+       				 //중복값이 있을 수 있기 때문에 while문을 이용함
 				count += acnt * bcnt;
 			}
 			else if(sum > T) {
@@ -102,15 +120,10 @@ public class Sum_of_two_arrays_JJW {
 			
 		}
 		
+		///////////////////////////////////////////////////////////////////////
 		
 		
-		//O(N^2)
-//		for(int i = 0 ; i < sumA.size() ; i++) {
-//			for(int j = 0 ; j < sumB.size() ; j++) {
-//				int sum = sumA.get(i) + sumB.get(j);
-//				if(sum == T) cnt++;
-//			}
-//		}
+
 		
 		
 		sb.append(count);
