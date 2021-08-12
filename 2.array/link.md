@@ -12,3 +12,4 @@
 
 ## Day 4
 - [Triangle](https://leetcode.com/problems/triangle/)
+- [Self Crossing](https://leetcode.com/problems/self-crossing/)
