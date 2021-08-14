@@ -13,6 +13,3 @@
 ## Day 4
 - [Triangle](https://leetcode.com/problems/triangle/)
 - [Self Crossing](https://leetcode.com/problems/self-crossing/)
-
-## Day 5
-- [Snail_list](https://www.acmicpc.net/problem/17827)
