@@ -46,7 +46,7 @@
 #### __*Todo*__
 - [X] 1 week
 - [X] 2 week
-- [] 3 week
+- [ ] 3 week
 
 ![Algorithm](https://blog.kakaocdn.net/dn/xCxbD/btq3zN4NQ3x/0ZBXlRgaeTqT1hBmPBrOQk/img.png)
 
