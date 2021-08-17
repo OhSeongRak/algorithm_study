@@ -33,3 +33,5 @@ class Solution:
             ha, hb = ha.next, hb.next
 
         return ha
+
+ 
