@@ -11,19 +11,19 @@ class Solution {
         	if(B[i] == 1)   stack.push(A[i]);	//downStream
            
             if(B[i] == 0){	//upStream
-                if(stack.size() == 0){ //downStreamÀÌ ¾øÀ¸¹Ç·Î upStream Áõ°¡
+                if(stack.size() == 0){ //downStreamì´ ì—†ìœ¼ë¯€ë¡œ upStream ì¦ê°€
                     upStream ++;   
                 }
                 else{
-                    while(stack.size() > 0){   //downStreamÁ¸Àç -> Å©±âºñ±³ 
-                       if(stack.peek() > A[i]){ //downStreamÀÌ Å¬ °æ¿ì break
+                    while(stack.size() > 0){   //downStreamì¡´ì¬ -> í¬ê¸°ë¹„êµ 
+                       if(stack.peek() > A[i]){ //downStreamì´ í´ ê²½ìš° break
                              break;
                       }
                        else{ 
-                           stack.pop();   //upStreamÀÌ Å¬ °æ¿ì pop
+                           stack.pop();   //upStreamì´ í´ ê²½ìš° pop
                       }
                     }
-                     if(stack.size() == 0){ //downStreamÀÌ ¾øÀ¸¹Ç·Î upStream Áõ°¡
+                     if(stack.size() == 0){ //downStreamì´ ì—†ìœ¼ë¯€ë¡œ upStream ì¦ê°€
                          upStream++;
                      }      
                 }
