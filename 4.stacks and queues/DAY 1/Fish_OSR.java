@@ -3,29 +3,29 @@ package StackQueue;
 public class Fish_OSR {
 	public static int solution(int[] A, int[] B) {
 
-		int[] surviveA = new int[A.length]; // »ì¾Æ³²Àº ¹°°í±â(½ºÅÃ)
-		int[] surviveB = new int[A.length]; // ÇØ´ç ¹°°í±âÀÇ À§Ä¡
+		int[] surviveA = new int[A.length]; // ì‚´ì•„ë‚¨ì€ ë¬¼ê³ ê¸°(ìŠ¤íƒ)
+		int[] surviveB = new int[A.length]; // í•´ë‹¹ ë¬¼ê³ ê¸°ì˜ ìœ„ì¹˜
 		int curPos = 0;
 		int top = -1;
 
-		// 0: ¾Æ·¡·Î(¿ŞÂÊ), 1: À§·Î(¿À¸¥ÂÊ)
+		// 0: ì•„ë˜ë¡œ(ì™¼ìª½), 1: ìœ„ë¡œ(ì˜¤ë¥¸ìª½)
 		while (curPos < A.length) {
-			// ¹°°í±â°¡ À§·Î°¡´Â °æ¿ì => ½ºÅÃ
+			// ë¬¼ê³ ê¸°ê°€ ìœ„ë¡œê°€ëŠ” ê²½ìš° => ìŠ¤íƒ
 			if (top == -1 || B[curPos] == 1) {
-				surviveA[++top] = A[curPos++]; // ½ºÅÃ¿¡ ¹°°í±â ³ÖÀ½
-				surviveB[top] = B[curPos - 1]; // À§Ä¡ °»½ÅÇÔ
+				surviveA[++top] = A[curPos++]; // ìŠ¤íƒì— ë¬¼ê³ ê¸° ë„£ìŒ
+				surviveB[top] = B[curPos - 1]; // ìœ„ì¹˜ ê°±ì‹ í•¨
 			}
-			// ¹°°í±â°¡ ¾Æ·¡·Î °¡´Â °æ¿ì
+			// ë¬¼ê³ ê¸°ê°€ ì•„ë˜ë¡œ ê°€ëŠ” ê²½ìš°
 			else {
-				// µÑ ´Ù ¾Æ·¡·Î °¥ °æ¿ì => ½ºÅÃ
+				// ë‘˜ ë‹¤ ì•„ë˜ë¡œ ê°ˆ ê²½ìš° => ìŠ¤íƒ
 				if (surviveB[top] == 0) {
 					surviveA[++top] = A[curPos++];
 					surviveB[top] = B[curPos - 1];
 				}
-				// ¿Ã¶ó°¡´Â ¹°°í±â°¡ ´õ Å« °æ¿ì
+				// ì˜¬ë¼ê°€ëŠ” ë¬¼ê³ ê¸°ê°€ ë” í° ê²½ìš°
 				else if (surviveA[top] > A[curPos])
 					curPos++;
-				// ³»·Á°¡´Â ¹°°í±â°¡ ´õ Å« °æ¿ì
+				// ë‚´ë ¤ê°€ëŠ” ë¬¼ê³ ê¸°ê°€ ë” í° ê²½ìš°
 				else if (surviveA[top] < A[curPos])
 					top--;
 			}
