@@ -8,19 +8,19 @@ public class Asteroid_Collision_OSR {
 		int top = -1;
 
 		while (curPos < asteroids.length) {
-			// asteroidsÀÇ °ªÀÌ ¾ç¼öÀÏ °æ¿ì, ½ºÅÃÀÌ ºñ¾îÀÖ´Â °æ¿ì, ½ºÅÃ °ªÀÌ À½¼öÀÎ °æ¿ì => ½ºÅÃ
+			// asteroidsì˜ ê°’ì´ ì–‘ìˆ˜ì¼ ê²½ìš°, ìŠ¤íƒì´ ë¹„ì–´ìˆëŠ” ê²½ìš°, ìŠ¤íƒ ê°’ì´ ìŒìˆ˜ì¸ ê²½ìš° => ìŠ¤íƒ
 			if (top == -1 || asteroids[curPos] > 0 || survive[top] < 0)
 				survive[++top] = asteroids[curPos++];
 			
-			// asteroidsÀÇ °ªÀÌ À½¼öÀÏ °æ¿ì
+			// asteroidsì˜ ê°’ì´ ìŒìˆ˜ì¼ ê²½ìš°
 			else {
-				// ½ºÅÃ¿¡ ÀÖ´Â °ªÀÌ ´õ Å¬ °æ¿ì
+				// ìŠ¤íƒì— ìˆëŠ” ê°’ì´ ë” í´ ê²½ìš°
 				if(survive[top] > Math.abs(asteroids[curPos]))
 					curPos++;
-				// ½ºÅÃ °ªÀÌ ´õ ÀÛÀ» °æ¿ì
+				// ìŠ¤íƒ ê°’ì´ ë” ì‘ì„ ê²½ìš°
 				else if(survive[top] < Math.abs(asteroids[curPos]))
 						top--;
-				// °°À» °æ¿ì
+				// ê°™ì„ ê²½ìš°
 				else {
 					top--;
 					curPos++;
