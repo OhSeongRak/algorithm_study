@@ -5,15 +5,15 @@ class Solution {
         Stack<Integer> stack = new Stack<>();
 
         for(int i = 0; i < asteroids.length; i++) {
-        	if(asteroids[i] > 0)	stack.push(asteroids[i]);	//¾ç¼ö push
-        	else if(asteroids[i] < 0){	//À½¼öÀÎ °æ¿ì
+        	if(asteroids[i] > 0)	stack.push(asteroids[i]);	//ì–‘ìˆ˜ push
+        	else if(asteroids[i] < 0){	//ìŒìˆ˜ì¸ ê²½ìš°
         		
         		while(stack.size() > 0 && stack.peek() > 0 && stack.peek() < Math.abs(asteroids[i]))	stack.pop();
-        		//peekÇÑ °ªÀÌ ¾ç¼öÀÌ°í °ú ¹è¿­ÀÇ Àı´ë°ªÀ» ºñ±³ÇÏ¿© ÀÛÀ» ¶§ pop
+        		//peekí•œ ê°’ì´ ì–‘ìˆ˜ì´ê³  ê³¼ ë°°ì—´ì˜ ì ˆëŒ€ê°’ì„ ë¹„êµí•˜ì—¬ ì‘ì„ ë•Œ pop
         		if(stack.size()==0 || stack.peek()<0)	stack.push(asteroids[i]);
-        		//stackÀÌ ºñ¾ú°Å³ª peekÇÑ °ªÀÌ À½¼öÀÎ°æ¿ì push
+        		//stackì´ ë¹„ì—ˆê±°ë‚˜ peekí•œ ê°’ì´ ìŒìˆ˜ì¸ê²½ìš° push
         		else if(stack.size()>0 && stack.peek() == Math.abs(asteroids[i]))	stack.pop();
-        		//peekÇÑ °ªÀÌ ¹è¿­ÀÇ Àı´ë°ª°ú °°À» °æ¿ì µÑ´Ù ¾ø¾îÁü pop
+        		//peekí•œ ê°’ì´ ë°°ì—´ì˜ ì ˆëŒ€ê°’ê³¼ ê°™ì„ ê²½ìš° ë‘˜ë‹¤ ì—†ì–´ì§ pop
         	}
         }
 
