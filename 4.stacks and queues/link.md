@@ -6,4 +6,4 @@
 - [Validate_Stack_Sequences](https://leetcode.com/problems/validate-stack-sequences/)
 ## DAY 3
 - [Stack_Sequence](https://www.acmicpc.net/problem/1874)
-- [Bridge Truck](https://programmers.co.kr/learn/courses/30/lessons/42583)
+- [Bridge_Truck](https://programmers.co.kr/learn/courses/30/lessons/42583)
