@@ -24,7 +24,7 @@
 - 그래프 (Graph)
 - 최단 경로 문제
 - 트리 (Tree)
-- 힙 (Heap)
+- 힙, 우선순위 큐 (Heap, Priority Queue)
 - 트라이 (Trie)
 - 정렬 (Sorting)
 - 이진 검색 (Binary Search)
