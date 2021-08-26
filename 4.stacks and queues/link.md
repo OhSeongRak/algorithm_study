@@ -11,4 +11,4 @@
 - [Bridge_Truck](https://programmers.co.kr/learn/courses/30/lessons/42583)
 
 ## DAY 4
-- [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
