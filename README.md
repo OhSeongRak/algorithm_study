@@ -33,7 +33,8 @@
 - 그리디 알고리즘 (Greedy Algorithm)
 - 분할 정복 (Divide and Conquer)
 - 다이나믹 프로그래밍 (Dynamic Programming)
-
+- Game Theory
+- 
 #### __*site*__
 - [Baekjoon](https://www.acmicpc.net)
 - [LeetCode](https://leetcode.com)
