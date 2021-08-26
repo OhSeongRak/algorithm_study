@@ -12,3 +12,4 @@
 
 ## DAY 4
 - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+- [Number_of_Visible_People](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)
