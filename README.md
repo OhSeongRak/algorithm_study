@@ -19,8 +19,7 @@
 - 문자열 조작 (string)
 - 배열 (array, List)
 - 연결리스트 (Linked List)
-- 스택, 큐 (stack, queue)
-- 데크, 우선순위 큐 (deque, priority queue)
+- 스택, 큐, 데크 (stack, queue, deque)
 - 해시 테이블 (Hash)
 - 그래프 (Graph)
 - 최단 경로 문제
