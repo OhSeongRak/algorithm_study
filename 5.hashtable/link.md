@@ -6,3 +6,7 @@
 ## DAY 2
 - [Camouflage](https://programmers.co.kr/learn/courses/30/lessons/42578)
 - [Best_album](https://programmers.co.kr/learn/courses/30/lessons/42579)
+
+## DAY 3
+
+- [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
