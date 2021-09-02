@@ -9,4 +9,4 @@
 
 ## DAY 3
 - [Nice Pairs](https://leetcode.com/problems/count-nice-pairs-in-an-array/)
-- [Yet Another KMP Problem](https://www.hackerrank.com/challenges/kmp-problem/problem)
+- [Word Ladder](https://leetcode.com/problems/word-ladder-ii/)
