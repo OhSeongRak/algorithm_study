@@ -9,4 +9,4 @@
 
 ## DAY 3
 - [Nice Pairs](https://leetcode.com/problems/count-nice-pairs-in-an-array/)
-- [Word Ladder](https://leetcode.com/problems/word-ladder-ii/)
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
