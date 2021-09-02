@@ -9,4 +9,4 @@
 
 ## DAY 3
 - [Nice Pairs](https://leetcode.com/problems/count-nice-pairs-in-an-array/)
-- [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
+- [Yet Another KMP Problem](https://www.hackerrank.com/challenges/kmp-problem/problem)
