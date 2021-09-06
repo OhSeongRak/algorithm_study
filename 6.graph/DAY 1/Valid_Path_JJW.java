@@ -4,10 +4,11 @@ import java.util.*;
 public class Day1_Valid_Path_JJW {
 	
     public static boolean validPath(int n, int[][] edges, int start, int end) {
-    	HashMap<Integer, List<Integer>> graph = new HashMap<>();
+    	
+    	ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
     	
     	for(int i = 0 ; i < n ; i++) {
-    		graph.put(i, new ArrayList<Integer>());
+    		graph.add(new ArrayList<>());
     	}
 
     	
@@ -30,7 +31,7 @@ public class Day1_Valid_Path_JJW {
         return true;
         
     }
-    public static void dfs(HashMap<Integer, List<Integer>> graph, int start, boolean[] visited) {
+    public static void dfs(ArrayList<ArrayList<Integer>> graph, int start, boolean[] visited) {
 		
 		visited[start] = true;
 		
