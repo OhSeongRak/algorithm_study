@@ -41,6 +41,7 @@
 - [Codility](https://app.codility.com/programmers/)
 - [HackerRank](https://www.hackerrank.com/dashboard)
 - [SW Expert Academy](https://swexpertacademy.com/main/main.do)
+- [Algospot](https://www.algospot.com/)
 
 #### __*Todo*__
 - [X] 1 week Done!
