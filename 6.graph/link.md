@@ -4,3 +4,4 @@
 
 ## DAY 2
 - [Furthest_Node](https://programmers.co.kr/learn/courses/30/lessons/49189)
+- [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
