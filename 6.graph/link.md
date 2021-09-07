@@ -4,4 +4,4 @@
 
 ## DAY 2
 - [Furthest_Node](https://programmers.co.kr/learn/courses/30/lessons/49189)
-- [Journey to the Moon](https://www.hackerrank.com/challenges/journey-to-the-moon/problem)
+- [Rust and Murderer](https://www.hackerrank.com/challenges/rust-murderer/problem)
