@@ -5,9 +5,7 @@ class Solution {
     public static int solution(String begin, String target, String[] words) {
         
     	visited = new boolean[words.length];
-    	for(int i=0; i< words.length ;i++) {
-    		visited[i] = false;
-    	}
+    	
         dfs(begin, target, words, 0);
         
         if(min == Integer.MAX_VALUE) min = 0;
