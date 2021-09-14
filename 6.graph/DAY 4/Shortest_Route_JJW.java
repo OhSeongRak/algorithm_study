@@ -33,7 +33,7 @@ class Solution {
     		if(cnt == words[i].length()-1) {
     			visited[i] = true;
     			dfs(words[i], target, words, depth+1);
-    			visited[i] = false;
+    			
     		}
     		
     	}
