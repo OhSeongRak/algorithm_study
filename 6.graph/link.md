@@ -18,3 +18,6 @@
 ## DAY 5
 - [Time_Machine](https://www.acmicpc.net/problem/11657)
 - [Possible_Bipartition](https://leetcode.com/problems/possible-bipartition/)
+
+## DAY 6
+- [Network](https://programmers.co.kr/learn/courses/30/lessons/43162)
