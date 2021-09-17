@@ -21,4 +21,4 @@
 
 ## DAY 6
 - [Network](https://programmers.co.kr/learn/courses/30/lessons/43162)
-- [Course Schedule](https://leetcode.com/problems/course-schedule/)
+- [Travel Route](https://programmers.co.kr/learn/courses/30/lessons/43164)
