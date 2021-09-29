@@ -20,27 +20,36 @@ public class Day1_Invert_JJW {
 	public static TreeNode invertTree(TreeNode root) {
 		
 		 if(root == null) return null;
+		
+		
+		TreeNode temp = invertTree(root.left);
+		root.left = invertTree(root.right);
+		root.right = temp;
+		
+		
+		
+    
+
+// 		Queue<TreeNode> queue = new LinkedList<>();
+// 		queue.add(root);
 			
-		Queue<TreeNode> queue = new LinkedList<>();
-		queue.add(root);
-			
-		while(!queue.isEmpty()) {
-			TreeNode node = queue.poll();
+// 		while(!queue.isEmpty()) {
+// 			TreeNode node = queue.poll();
 				
-			//swap
-			TreeNode temp = node.left;
-			node.left = node.right;
-			node.right = temp;
+// 			//swap
+// 			TreeNode temp = node.left;
+// 			node.left = node.right;
+// 			node.right = temp;
 				
-	        //자식들이 있다면 queue에 추가시켜 밑동가리들도 swap할 수 있도록 함
-			if(node.left != null) {
-				queue.add(node.left);
-			}
-			if(node.right != null) {
-				queue.add(node.right);
-			}
+// 	        //자식들이 있다면 queue에 추가시켜 밑동가리들도 swap할 수 있도록 함
+// 			if(node.left != null) {
+// 				queue.add(node.left);
+// 			}
+// 			if(node.right != null) {
+// 				queue.add(node.right);
+// 			}
 				
-		}		
+// 		}		
 			
 		return root;
 	}
