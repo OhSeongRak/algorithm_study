@@ -41,20 +41,20 @@ public class Day1_InOrder_JJW {
 		
 		for(int test_case = 1; test_case <= 10 ; test_case++) {
 			for(int i = 0 ; i < N ; i++) {
-//				st = new StringTokenizer(br.readLine());
-//				tree[Integer.parseInt(st.nextToken())] = st.nextToken().charAt(0);
-				String[] s = br.readLine().split(" ");
-				if(s.length == 2) {
-					
-				}
-				
+				st = new StringTokenizer(br.readLine());
+				tree[Integer.parseInt(st.nextToken())] = st.nextToken().charAt(0);
+//				String[] s = br.readLine().split(" ");
+//				if(s.length == 2) {
+//					
+//				}
+//				
 			
 			}
-				//sb.append("#").append().append(" ");
+			sb.append("#").append(test_case).append(" ");
 				
-				inorder(1);
+			inorder(1);
 				
-				sb.append('\n');
+			sb.append('\n');
 			
 			System.out.println(sb);
 
