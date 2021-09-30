@@ -4,3 +4,4 @@
 
 ## DAY 2
 - [Symmetric_Tree](https://leetcode.com/problems/symmetric-tree/)
+- [Diameter of the tree](https://www.acmicpc.net/problem/1967)
