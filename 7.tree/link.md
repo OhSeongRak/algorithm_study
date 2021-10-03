@@ -7,4 +7,4 @@
 - [Diameter of the tree](https://www.acmicpc.net/problem/1967)
 
 ## DAY 3
-- [Binary_Tree_Right_Side_View)(https://leetcode.com/problems/binary-tree-right-side-view/)
+- [Binary_Tree_Right_Side_View](https://leetcode.com/problems/binary-tree-right-side-view/)
