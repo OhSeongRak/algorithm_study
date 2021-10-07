@@ -9,3 +9,6 @@
 ## DAY 3
 - [Binary_Tree_Right_Side_View](https://leetcode.com/problems/binary-tree-right-side-view/)
 - [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)
+
+## DAY 4
+- [The_Directions_Game](https://programmers.co.kr/learn/courses/30/lessons/42892)
