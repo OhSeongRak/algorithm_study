@@ -100,7 +100,7 @@ public class The_Directions_Game_OSR {
 		for (int i = 0; i < nodeinfo.length; i++)
 			nodeList.add(new Coord(i + 1, nodeinfo[i][0], nodeinfo[i][1]));
 
-		// y°ªÀ¸·Î ³»¸²Â÷¼ø Á¤·Ä
+		// yê°’ìœ¼ë¡œ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 		Collections.sort(nodeList);
 
 		tree = new Tree(nodeList.get(0));
@@ -132,7 +132,7 @@ public class The_Directions_Game_OSR {
 
 }
 
-// Á¤·Ä ¶÷´Ù½Ä
+// ì •ë ¬ ëžŒë‹¤ì‹
 
 //Arrays.sort(answer, (o1, o2) -> {
 //if (o1[1] == o2[1])
