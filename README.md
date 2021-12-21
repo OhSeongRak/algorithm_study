@@ -50,7 +50,8 @@
 - [X] 4 week Done!
 - [X] 5 week Done!
 - [X] 6 week Done!
-- [ ] 7 week  ing-
+- [X] 7 week Done!
+- [ ] 8 week ing -
 
 ![Algorithm](https://blog.kakaocdn.net/dn/xCxbD/btq3zN4NQ3x/0ZBXlRgaeTqT1hBmPBrOQk/img.png)
 
