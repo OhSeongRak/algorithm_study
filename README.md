@@ -22,12 +22,10 @@
 - 스택, 큐, 데크 (stack, queue, deque)
 - 해시 테이블 (Hash)
 - 그래프 (Graph), 최단 경로 문제(Dijkstra)
-- 트리 (Tree)
+- 트리 (Tree), 트라이 (Trie)
 - 힙, 우선순위 큐 (Heap, Priority Queue)
-- 트라이 (Trie)
 - 정렬 (Sorting)
 - 이진 검색 (Binary Search)
-- 비트 조작
 - 슬라이딩 윈도우 (Sliding Window)
 - 그리디 알고리즘 (Greedy Algorithm)
 - 분할 정복 (Divide and Conquer)
@@ -51,7 +49,8 @@
 - [X] 5 week Done!
 - [X] 6 week Done!
 - [X] 7 week Done!
-- [ ] 8 week ing -
-
+- [ ] 8 week Done!
+- [ ] 9 week ing ~
+- [ ] 
 ![Algorithm](https://blog.kakaocdn.net/dn/xCxbD/btq3zN4NQ3x/0ZBXlRgaeTqT1hBmPBrOQk/img.png)
 
