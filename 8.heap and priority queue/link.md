@@ -2,3 +2,6 @@
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [Car Pooling](https://leetcode.com/problems/car-pooling/)
 - [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)
+
+## DAY 2
+- [Disk Controler](https://programmers.co.kr/learn/courses/30/lessons/42627)
