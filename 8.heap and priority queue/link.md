@@ -6,3 +6,6 @@
 ## DAY 2
 - [Disk Controller](https://programmers.co.kr/learn/courses/30/lessons/42627)
 - [More Spicy](https://programmers.co.kr/learn/courses/30/lessons/42626)
+
+## DAY 3
+- [Parking Tower](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW9j74FacD0DFAUY)
