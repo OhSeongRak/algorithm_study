@@ -10,4 +10,4 @@
 ## DAY 3
 - [Parking Tower](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW9j74FacD0DFAUY)
 - [Dual Priority Queue](https://programmers.co.kr/learn/courses/30/lessons/42628)
-- [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)
+- [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
