@@ -69,7 +69,7 @@ public class Day3_Dual_Priority_Queue {
 		for(int res : answer) System.out.print(res +" ");
 		
 		
-		
+		 
 	}
 	
 }
