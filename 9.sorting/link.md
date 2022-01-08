@@ -5,4 +5,4 @@
 
 ## DAY 2
 - [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
-- [Car Fleet](https://leetcode.com/problems/car-fleet/)
+- [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
