@@ -5,3 +5,4 @@
 
 ## DAY 2
 - [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
+- [Car Fleet](https://leetcode.com/problems/car-fleet/)
