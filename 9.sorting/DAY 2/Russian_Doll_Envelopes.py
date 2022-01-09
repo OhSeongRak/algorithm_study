@@ -15,3 +15,5 @@ class Solution:
                 lis[index] = height
 
         return len(lis)
+    
+    
