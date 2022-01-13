@@ -6,3 +6,4 @@
 ## DAY 2
 - [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 - [Stepping Stone](https://programmers.co.kr/learn/courses/30/lessons/43236)
+- [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
