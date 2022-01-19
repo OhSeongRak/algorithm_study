@@ -1,6 +1,7 @@
 from typing import *
 
 def longestArithSeqLength(A):
+    
     dp = {}
     for start in range(len(A)):
         for end in range(start + 1, len(A)):
