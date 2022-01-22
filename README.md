@@ -4,7 +4,7 @@
 - @SeongRak Oh 
 - @Jinyong3512
 - @jeongjwon
-- 
+- @joojeno
 
 #### __*system*__
 - 주 3-4회, 스터디는 23시, 디스코드에서 비대면 방식으로 진행한다.  
