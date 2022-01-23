@@ -52,7 +52,8 @@
 - [X] 8 week Done!
 - [X] 9 week Done!
 - [X] 10 week Done!
-- [ ] 11 week Doing
+- [X] 11 week Done!
+- [ ] Greedy Doing
 
 ![Algorithm](https://blog.kakaocdn.net/dn/xCxbD/btq3zN4NQ3x/0ZBXlRgaeTqT1hBmPBrOQk/img.png)
 
