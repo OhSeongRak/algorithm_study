@@ -5,3 +5,4 @@
 
 ## DAY 2
 - [Tie Ropes](https://app.codility.com/programmers/lessons/16-greedy_algorithms/tie_ropes/)
+- [Enforcement Camera](https://programmers.co.kr/learn/courses/30/lessons/42884)
