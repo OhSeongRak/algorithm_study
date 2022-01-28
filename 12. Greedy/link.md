@@ -4,6 +4,6 @@
 - [Partition Labels](https://leetcode.com/problems/partition-labels/)
 
 ## DAY 2
-- [Tie Ropes](https://app.codility.com/programmers/lessons/16-greedy_algorithms/tie_ropes/)
+- [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 - [Enforcement Camera](https://programmers.co.kr/learn/courses/30/lessons/42884)
 - [Reverse Shuffle Merge](https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem?isFullScreen=true)
