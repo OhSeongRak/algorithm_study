@@ -33,11 +33,3 @@ nums = [4,2,3,4]
 #nums = [1, 4, 10, 12, 14, 19, 26, 31, 35, 44]
 
 print(triangleNumber(nums))
-
-# list = []
-#
-# for i in range(10):
-#     list.append(random.randrange(1, 50))
-#
-# list.sort()
-# print(list)
