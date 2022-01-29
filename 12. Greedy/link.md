@@ -6,4 +6,4 @@
 ## DAY 2
 - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 - [Enforcement Camera](https://programmers.co.kr/learn/courses/30/lessons/42884)
-- [Reverse Shuffle Merge](https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem?isFullScreen=true)
+- [Candy](https://leetcode.com/problems/candy/)
