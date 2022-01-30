@@ -42,18 +42,18 @@
 - [Algospot](https://www.algospot.com/)
 
 #### __*Todo*__
-- [X] 1 week Done!
-- [X] 2 week Done!
-- [X] 3 week Done!
-- [X] 4 week Done!
-- [X] 5 week Done!
-- [X] 6 week Done!
-- [X] 7 week Done!
-- [X] 8 week Done!
-- [X] 9 week Done!
-- [X] 10 week Done!
-- [X] 11 week Done!
-- [ ] Greedy Doing
+- [X] 1 week done!
+- [X] 2 week done!
+- [X] 3 week done!
+- [X] 4 week done!
+- [X] 5 week done!
+- [X] 6 week done!
+- [X] 7 week done!
+- [X] 8 week done!
+- [X] 9 week done!
+- [X] 10 week done!
+- [X] 11 week done!
+- [X] 12 week done!
 
 ![Algorithm](https://blog.kakaocdn.net/dn/xCxbD/btq3zN4NQ3x/0ZBXlRgaeTqT1hBmPBrOQk/img.png)
 
