@@ -3,6 +3,9 @@ from typing import *
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        if len(nums) == 1:
+            return nums[0]
+        
         maxList = []
 
         maxList.append(nums[0])
