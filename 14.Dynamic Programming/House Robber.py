@@ -7,7 +7,6 @@ class Solution:
             return nums[0]
         
         maxList = []
-
         maxList.append(nums[0])
         maxList.append(max(nums[0], nums[1]))
 
