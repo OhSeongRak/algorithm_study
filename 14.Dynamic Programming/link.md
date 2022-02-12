@@ -4,4 +4,4 @@
 - [Jump Game](https://leetcode.com/problems/jump-game/)
 
 ## DAY 2
-
+- [Coin Change](https://leetcode.com/problems/coin-change/)
