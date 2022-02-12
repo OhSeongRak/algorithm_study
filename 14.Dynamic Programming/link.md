@@ -5,3 +5,4 @@
 
 ## DAY 2
 - [Coin Change](https://leetcode.com/problems/coin-change/)
+- [Tallest Billboard](https://leetcode.com/problems/tallest-billboard/)
