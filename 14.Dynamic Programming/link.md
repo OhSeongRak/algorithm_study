@@ -6,3 +6,4 @@
 ## DAY 2
 - [Coin Change](https://leetcode.com/problems/coin-change/)
 - [Tallest Billboard](https://leetcode.com/problems/tallest-billboard/)
+- [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
